@@ -1,0 +1,48 @@
+\documentclass[a4paper,9pt]{scrartcl}
+\usepackage{amssymb, amsmath}
+\usepackage[utf8]{inputenc}  
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{color}
+\usepackage{framed}
+\usepackage{enumerate}
+\usepackage{csquotes}   % for enquote
+\usepackage{microtype}
+\usepackage{hyperref}
+
+% paper infos
+\newcommand\papertitle{TITLE}
+\newcommand\paperauthors{AUTHORS}
+\newcommand\papernr{REFERENCE}
+
+\hypersetup{
+	pdftitle={Review of \papertitle (\papernr)},
+	pdfauthor={Anonymous},
+}
+
+\begin{document}
+{\noindent\papernr}
+\vspace*{1cm}
+
+\noindent Review of\vspace*{0.2cm}
+{\Large\\{\textbf{\textit\papertitle}}}\vspace*{0.2cm}
+
+\noindent by \paperauthors
+\vspace*{1cm}
+
+\section{Overview}
+% Summarize the article in a short paragraph. This shows the editor you have read and understood the research.
+
+\section{Recommendation}
+%Give your main impressions of the article, including whether it is novel and interesting, whether it has a sufficient impact and adds to the knowledge base.
+% add the general suitablity of the article for the specific journal
+% add a general recommendation like accept, major/minor revision, reject
+
+\section{Major Comments}
+
+\section{Minor Comments}
+
+\flushright\today
+
+\end{document}
